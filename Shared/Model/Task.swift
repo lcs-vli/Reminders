@@ -7,16 +7,24 @@
 
 import Foundation
 
-struct Task: Identifiable {
+class Task: Identifiable, ObservableObject {
     //create id for each item so that know which one to delete
     var id = UUID()
     var description: String
     var priority: TaskPriority
-    var completed: Bool
+    //need swift UI to see when this porperty changes
+    @Published var completed: Bool
+    
+    internal init(id: UUID = UUID(), description: String, priority: TaskPriority, completed: Bool){
+        self.id = id
+        self.description = description
+        self.priority = priority
+        self.completed = completed
+    }
 }
 
 let testData = [
-    Task(description: "study", priority: .high, completed: true),
-    Task(description: "more study", priority: .medium, completed: false),
-    Task(description: "more more study", priority: .low, completed: false),
+    Task(description: "studying", priority: .high, completed: true),
+    Task(description: "more studying", priority: .medium, completed: false),
+    Task(description: "more more studying", priority: .low, completed: false),
 ]

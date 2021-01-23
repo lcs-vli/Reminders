@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54BAD91C25BCD07100B21695 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAD91B25BCD07100B21695 /* TaskCell.swift */; };
+		54BAD91D25BCD07100B21695 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAD91B25BCD07100B21695 /* TaskCell.swift */; };
 		54DEF26F25BCCA48006D0D0F /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DEF25C25BCCA47006D0D0F /* RemindersApp.swift */; };
 		54DEF27025BCCA48006D0D0F /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DEF25C25BCCA47006D0D0F /* RemindersApp.swift */; };
 		54DEF27125BCCA48006D0D0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DEF25D25BCCA47006D0D0F /* ContentView.swift */; };
@@ -19,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54BAD91B25BCD07100B21695 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		54DEF25C25BCCA47006D0D0F /* RemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersApp.swift; sourceTree = "<group>"; };
 		54DEF25D25BCCA47006D0D0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54DEF25E25BCCA48006D0D0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				54DEF25D25BCCA47006D0D0F /* ContentView.swift */,
+				54BAD91B25BCD07100B21695 /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +220,7 @@
 				54DEF27125BCCA48006D0D0F /* ContentView.swift in Sources */,
 				54DEF28225BCCAFF006D0D0F /* Task.swift in Sources */,
 				54DEF28625BCCB78006D0D0F /* TaskPriority.swift in Sources */,
+				54BAD91C25BCD07100B21695 /* TaskCell.swift in Sources */,
 				54DEF26F25BCCA48006D0D0F /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54DEF27225BCCA48006D0D0F /* ContentView.swift in Sources */,
+				54BAD91D25BCD07100B21695 /* TaskCell.swift in Sources */,
 				54DEF27025BCCA48006D0D0F /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
