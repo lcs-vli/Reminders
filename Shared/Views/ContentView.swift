@@ -29,7 +29,7 @@ struct ContentView: View {
         }
         // shows the sheet when $showingAddTaskView is changed to true
         .sheet(isPresented: $showingAddTaskView){
-            AddTask(showing: $showingAddTaskView)
+            AddTask(store: store, showing: $showingAddTaskView)
         }
     }
 }
